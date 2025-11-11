@@ -18,7 +18,7 @@ app.use(express.urlencoded({extended:false}));
 // ejs init
 app.set("view engine", "ejs");
 app.use(expressLayouts);
-app.set("layout", "layouts/photo");
+app.set("layout", "layouts/app");
 
 // static folder 
 app.use(express.static("public"));
